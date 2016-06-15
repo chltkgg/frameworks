@@ -272,13 +272,10 @@ org.eclipse.jdt.core.compiler.compliance=1.6
 	</pluginRepositories>
 	<distributionManagement>
 		<repository>
-			<id>releases</id>
-			<url>${releases.repo}</url>
+			<id>central</id>
+			<name>65cc4c789c34-releases</name>
+			<url>http://mvn.pn.com/artifactory/ext-release-local</url>
 		</repository>
-		<snapshotRepository>
-			<id>snapshots</id>
-			<url>${snapshots.repo}</url>
-		</snapshotRepository>
 	</distributionManagement>
 </project>
 
